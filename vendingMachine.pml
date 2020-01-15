@@ -77,4 +77,3 @@ init{
 }
 
 ltl p1 { ((orderNum == 0) && (boughtItem == 0)) U (always eventually (orderNum == boughtItem)) }
-ltl p2 { always eventually (result == 5) }
